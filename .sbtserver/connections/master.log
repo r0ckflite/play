@@ -1,0 +1,25 @@
+New log file opened at Wed Sep 28 17:12:27 EDT 2016 by 19953@benjamins-Mac-mini.local
+Taking next connection to: 54844
+New client attempting to connect on port: 54845-54844
+  Address = /192.168.1.214:54844
+This client on port 54845 has uuid 27e330b6-478d-4dcd-b6c9-3db2ae00270e configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-27e330b6-478d-4dcd-b6c9-3db2ae00270e
+Taking next connection to: 54844
+New client attempting to connect on port: 54846-54844
+  Address = /192.168.1.214:54844
+Handshake exception on socket: 54846
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 54844
+New client attempting to connect on port: 54847-54844
+  Address = /192.168.1.214:54844
+This client on port 54847 has uuid 9efd5cc7-613a-4132-af46-91fa94f46f55 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-27e330b6-478d-4dcd-b6c9-3db2ae00270e, activator-9efd5cc7-613a-4132-af46-91fa94f46f55
+Taking next connection to: 54844
